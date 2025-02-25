@@ -1,0 +1,41 @@
+# Ignore environment variables file
+.env
+
+# Ignore dependencies directory
+node_modules/
+
+# Ignore build or output directories (if any)
+dist/
+build/
+
+# Ignore logs and debug files
+*.log
+*.debug
+npm-debug.log*
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/editor specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore uploaded files (if applicable)
+/users.xlsx
+
+# Ignore any temporary files
+*.tmp
+*.temp
+
+# Ignore coverage reports (if using Jest or other testing tools)
+coverage/
+
+# Ignore lock files (optional, depending on your preference)
+# If you want to commit package-lock.json, remove the next line
+yarn.lock
+pnpm-lock.yaml
+
+# Ignore any other custom files or folders you don't want in the repo
